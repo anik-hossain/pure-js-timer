@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:focus{
+    outline: none;
+}
+body{
+    background-color: #000;
+    font-family: cursive;
+    color: #fff;
+}
+.container{
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+.alarm{
+    text-align: center;
+    margin: 0 auto;
+}
+.alarm .num input{
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+}
+.alarm .num span{
+    display: inline-block;
+    background-color: #444343;
+    color: #37B6EF;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 2;
+    text-align: center;
+}
+.alarm button{
+    cursor: pointer;
+    background-color: #3f3e3e;
+    width: 45px;
+    height: 45px;
+    border: none;
+    color: #37B6EF;
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 50%;
+}
